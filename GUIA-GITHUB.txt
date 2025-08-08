@@ -1,0 +1,71 @@
+🚀 GUIA COMPLETO PARA SUBIR O PROJETO NO GITHUB
+=================================================
+
+📋 PRÉ-REQUISITOS:
+✅ Ter o Git instalado no computador
+✅ Ter uma conta no GitHub
+✅ Estar na pasta do projeto (PaginaOds)
+
+🔧 PASSO A PASSO:
+
+1️⃣ CONFIGURAR GIT LOCAL
+------------------------
+Abra o PowerShell ou Command Prompt na pasta do projeto e execute:
+
+git init
+git add .
+git commit -m "🎉 Primeira versão: Plataforma Saúde para Todos - ODS 3"
+
+2️⃣ CRIAR REPOSITÓRIO NO GITHUB
+-------------------------------
+• Acesse: https://github.com/new
+• Nome sugerido: "saude-para-todos-ods3"
+• Descrição: "Plataforma web para promover saúde e bem-estar - ODS 3"
+• Deixe como público
+• NÃO marque "Add a README file" (já temos um)
+• Clique em "Create repository"
+
+3️⃣ CONECTAR LOCAL COM GITHUB
+-----------------------------
+Na página do repositório criado, copie a URL e execute:
+
+git remote add origin https://github.com/SEU-USUARIO/saude-para-todos-ods3.git
+git branch -M main
+git push -u origin main
+
+Substitua "SEU-USUARIO" pelo seu nome de usuário do GitHub.
+
+4️⃣ ATIVAR GITHUB PAGES
+-----------------------
+• Vá para Settings do repositório
+• Role até "Pages" no menu lateral
+• Em "Source", selecione "Deploy from a branch"
+• Selecione "main" branch
+• Clique "Save"
+• Aguarde alguns minutos e seu site estará online!
+
+🌐 SEU SITE FICARÁ DISPONÍVEL EM:
+https://SEU-USUARIO.github.io/saude-para-todos-ods3
+
+📝 COMANDOS ÚTEIS PARA O FUTURO:
+--------------------------------
+• Adicionar mudanças: git add .
+• Fazer commit: git commit -m "Descrição da mudança"
+• Enviar para GitHub: git push
+• Ver status: git status
+• Ver histórico: git log --oneline
+
+🎯 DICAS IMPORTANTES:
+--------------------
+✅ Sempre teste localmente antes de fazer push
+✅ Use mensagens de commit descritivas
+✅ O GitHub Pages atualiza automaticamente a cada push
+✅ Mantenha o README.md sempre atualizado
+
+🆘 PROBLEMAS COMUNS:
+-------------------
+• Se der erro de autenticação, configure seu token GitHub
+• Se o site não carregar, verifique se o GitHub Pages está ativo
+• Se aparecer 404, aguarde alguns minutos após o primeiro deploy
+
+💡 Para mais ajuda: https://docs.github.com/pt/pages
