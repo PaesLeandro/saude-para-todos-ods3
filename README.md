@@ -156,8 +156,7 @@ Este projeto está configurado para deploy automático no GitHub Pages. Qualquer
 
 ### 🤔 Enviar ou não (opcional)
 
-- `setup-github.ps1`: útil para automação local de setup Git; pode ficar no repositório, mas **não é obrigatório** para o funcionamento do site.
-- `GUIA-GITHUB.txt`: guia de uso/manual; pode ficar para ajudar iniciantes, mas **também é opcional**.
+- Scripts/guias locais de apoio (quando existirem) podem ficar fora do repositório sem impactar o funcionamento do site.
 
 ### ❌ Não enviar
 
@@ -167,8 +166,7 @@ Este projeto está configurado para deploy automático no GitHub Pages. Qualquer
 ### Resposta direta às suas dúvidas
 
 - **Pasta `.github/workflows`**: enviar **sim** se quiser CI/deploy automático; se não usar automação, pode remover.
-- **`setup-github.ps1`**: **não é necessário** para produção do site; mantenha só se você ou equipe usarem.
-- **`GUIA-GITHUB.txt`**: **não é necessário**, mas pode ser mantido como documentação auxiliar.
+- **`setup-github.ps1`** e **`GUIA-GITHUB.txt`**: não são necessários para produção; no estado atual deste repositório, esses arquivos já foram removidos.
 
 ## 📄 Licença
 
