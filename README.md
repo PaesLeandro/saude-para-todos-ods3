@@ -33,6 +33,8 @@ Esta aplicação promove o acesso universal à saúde e bem-estar, oferecendo fe
 
 ```
 PaginaOds/
+├── .gitignore          # Arquivos ignorados no versionamento
+├── LICENSE             # Licença MIT
 ├── index.html          # Página principal
 ├── css/
 │   └── styles.css      # Estilos CSS
@@ -103,7 +105,7 @@ O projeto é totalmente estático e pode ser hospedado em:
 ### 📥 **Clone do Repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/saude-para-todos-ods3.git
+git clone https://github.com/PaesLeandro/saude-para-todos-ods3.git
 cd saude-para-todos-ods3
 ```
 
@@ -141,9 +143,9 @@ O projeto contribui para os seguintes objetivos:
 4. **Push** para a branch (`git push origin feature/nova-funcionalidade`)
 5. **Abra** um Pull Request
 
-## 📦 Deploy Automático
+## 📦 Deploy
 
-Este projeto está configurado para deploy automático no GitHub Pages. Qualquer push para a branch `main` irá atualizar automaticamente o site online.
+Este projeto é estático e pode ser publicado manualmente em GitHub Pages, Netlify, Vercel ou qualquer servidor web.
 
 ## 🗂️ O que enviar para o GitHub
 
@@ -151,7 +153,6 @@ Este projeto está configurado para deploy automático no GitHub Pages. Qualquer
 
 - Código-fonte do projeto (`index.html`, `css/`, `js/`)
 - Documentação principal (`README.md`, `LICENSE`)
-- `.github/workflows/deploy.yml` **se você quiser deploy automático no GitHub Pages**
 - `.gitignore`
 
 ### 🤔 Enviar ou não (opcional)
@@ -165,7 +166,7 @@ Este projeto está configurado para deploy automático no GitHub Pages. Qualquer
 
 ### Resposta direta às suas dúvidas
 
-- **Pasta `.github/workflows`**: enviar **sim** se quiser CI/deploy automático; se não usar automação, pode remover.
+- **Pasta `.github/workflows`**: no estado atual deste repositório, essa pasta foi removida e o deploy é manual.
 - **`setup-github.ps1`** e **`GUIA-GITHUB.txt`**: não são necessários para produção; no estado atual deste repositório, esses arquivos já foram removidos.
 
 ## 📄 Licença

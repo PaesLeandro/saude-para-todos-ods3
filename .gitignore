@@ -37,3 +37,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Workflows GitHub (não utilizado neste repositório)
+.github/workflows/
