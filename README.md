@@ -37,23 +37,32 @@ PaginaOds/
 ├── css/
 │   └── styles.css      # Estilos CSS
 ├── js/
-│   └── script.js       # JavaScript funcional
+│   └── modules/
+│       ├── config.js   # Constantes de configuração
+│       ├── data.js     # Dados de dicas e notícias
+│       ├── messages.js # Mensagens de interface
+│       ├── render.js   # Funções de renderização
+│       ├── utils.js    # Utilitários comuns
+│       └── script.js   # Orquestração da aplicação
 └── README.md           # Documentação
 ```
 
 ## 🎨 Características Técnicas
 
 ### Design
+
 - **Responsivo**: Adaptado para desktop, tablet e mobile
 - **Acessível**: Interface clara e navegação intuitiva
 - **Moderno**: Design limpo com gradientes e animações suaves
 
 ### Tecnologias
+
 - **HTML5**: Estrutura semântica
 - **CSS3**: Estilos modernos com variáveis CSS e grid/flexbox
 - **JavaScript**: Funcionalidades interativas e SPA (Single Page Application)
 
 ### Funcionalidades Interativas
+
 - Navegação SPA sem recarregamento de página
 - Sistema de notícias com auto-atualização
 - Calculadora de IMC com validação
@@ -72,6 +81,7 @@ PaginaOds/
 ## 🚀 Como Usar
 
 ### 💻 **Executar Localmente**
+
 1. **Clone ou baixe** os arquivos do projeto
 2. **Abra** o arquivo `index.html` em qualquer navegador moderno
 3. **Navegue** pelas diferentes seções usando o menu superior
@@ -82,13 +92,16 @@ PaginaOds/
    - Acesse os links úteis
 
 ### 🌐 **Deploy Online**
+
 O projeto é totalmente estático e pode ser hospedado em:
+
 - **GitHub Pages** (grátis)
 - **Netlify** (grátis)
 - **Vercel** (grátis)
 - Qualquer servidor web
 
 ### 📥 **Clone do Repositório**
+
 ```bash
 git clone https://github.com/seu-usuario/saude-para-todos-ods3.git
 cd saude-para-todos-ods3
@@ -106,7 +119,7 @@ O projeto contribui para os seguintes objetivos:
 ✅ **Equidade**: Oferecer informações gratuitas e acessíveis a todos  
 ✅ **Qualidade**: Conectar usuários a serviços de saúde de qualidade  
 ✅ **Cobertura**: Apoiar a cobertura universal de saúde  
-✅ **Emergência**: Fornecer contatos para situações de emergência  
+✅ **Emergência**: Fornecer contatos para situações de emergência
 
 ## 📞 Contatos de Emergência
 
@@ -132,6 +145,31 @@ O projeto contribui para os seguintes objetivos:
 
 Este projeto está configurado para deploy automático no GitHub Pages. Qualquer push para a branch `main` irá atualizar automaticamente o site online.
 
+## 🗂️ O que enviar para o GitHub
+
+### ✅ Enviar (recomendado)
+
+- Código-fonte do projeto (`index.html`, `css/`, `js/`)
+- Documentação principal (`README.md`, `LICENSE`)
+- `.github/workflows/deploy.yml` **se você quiser deploy automático no GitHub Pages**
+- `.gitignore`
+
+### 🤔 Enviar ou não (opcional)
+
+- `setup-github.ps1`: útil para automação local de setup Git; pode ficar no repositório, mas **não é obrigatório** para o funcionamento do site.
+- `GUIA-GITHUB.txt`: guia de uso/manual; pode ficar para ajudar iniciantes, mas **também é opcional**.
+
+### ❌ Não enviar
+
+- Arquivos temporários, logs, backup e configurações locais (já cobertos pelo `.gitignore`)
+- Segredos e variáveis de ambiente (`.env*`)
+
+### Resposta direta às suas dúvidas
+
+- **Pasta `.github/workflows`**: enviar **sim** se quiser CI/deploy automático; se não usar automação, pode remover.
+- **`setup-github.ps1`**: **não é necessário** para produção do site; mantenha só se você ou equipe usarem.
+- **`GUIA-GITHUB.txt`**: **não é necessário**, mas pode ser mantido como documentação auxiliar.
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
@@ -140,4 +178,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 **Desenvolvido com ❤️ para promover saúde e bem-estar para todos**
 
-*Em conformidade com os Objetivos de Desenvolvimento Sustentável das Nações Unidas*
+_Em conformidade com os Objetivos de Desenvolvimento Sustentável das Nações Unidas_

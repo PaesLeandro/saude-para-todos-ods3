@@ -326,6 +326,277 @@ body {
     text-align: center;
 }
 
+.section-gap-lg {
+    margin-bottom: 3rem;
+}
+
+.center-grid {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.center-grid-pilares {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 800px;
+}
+
+.center-grid-especializados {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.3rem;
+    max-width: 600px;
+}
+
+.controls-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.action-btn-primary {
+    background: var(--primary);
+}
+
+.action-btn-secondary {
+    background: var(--secondary);
+}
+
+.action-btn-purple {
+    background: #9333ea;
+}
+
+.update-meta-wrap {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.update-meta,
+.news-meta {
+    color: #64748b;
+}
+
+.loading-noticias {
+    display: none;
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.spinner {
+    animation: spin 1s linear infinite;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.external-link-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links-menu {
+    width: 100%;
+    max-width: 760px;
+    display: grid;
+    gap: 0.8rem;
+}
+
+.links-menu-group {
+    background: #fff;
+    border-radius: 0.9rem;
+    box-shadow: var(--shadow);
+    padding: 0.3rem 0.9rem;
+}
+
+.links-menu-group summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #1e293b;
+    padding: 0.6rem 0;
+    list-style: none;
+}
+
+.links-menu-group summary::-webkit-details-marker {
+    display: none;
+}
+
+.links-menu-group ul {
+    margin: 0 0 0.7rem 0;
+    padding-left: 1.1rem;
+    display: grid;
+    gap: 0.45rem;
+}
+
+.links-menu-group a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.links-menu-group a:hover {
+    text-decoration: underline;
+}
+
+.demo-form-wrap {
+    max-width: 400px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.demo-input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    font-size: 1.05rem;
+}
+
+.demo-textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.demo-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.5rem;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.demo-btn-inline {
+    margin-left: 0.5rem;
+}
+
+.demo-btn-top {
+    margin-top: 0.7rem;
+    padding: 0.7rem 1.3rem;
+}
+
+.health-form-card {
+    width: 100%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.health-form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.health-form-inline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.controls-row-left {
+    justify-content: flex-start;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+}
+
+.health-list {
+    width: 100%;
+    max-width: 760px;
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.health-item {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    padding: 0.9rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: flex-start;
+}
+
+.health-item h4 {
+    margin: 0 0 0.2rem 0;
+}
+
+.health-item p {
+    margin: 0.1rem 0;
+    color: #475569;
+}
+
+.health-item-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.mini-btn {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.35rem 0.65rem;
+    cursor: pointer;
+    color: #fff;
+    background: var(--primary);
+    font-size: 0.85rem;
+}
+
+.mini-btn.secondary {
+    background: #64748b;
+}
+
+.mini-btn.danger {
+    background: #dc2626;
+}
+
+.progress-card {
+    width: 100%;
+    max-width: 760px;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
+
+.progress-track {
+    width: 100%;
+    height: 14px;
+    background: #e2e8f0;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, #16a34a, #2563eb);
+    transition: width var(--transition);
+}
+
+.progress-text {
+    margin: 0.7rem 0 0 0;
+    color: #334155;
+    font-weight: 600;
+}
+
 /* NOTÍCIAS E ANIMAÇÕES */
 .news-item {
     border-left: 3px solid var(--primary);
@@ -571,6 +842,14 @@ body {
     justify-content: center;
     color: #cbd5e1;
     font-size: 0.96rem;
+}
+
+.footer-credits {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 @media (max-width:600px) {
