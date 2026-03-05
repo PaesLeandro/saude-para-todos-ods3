@@ -18,16 +18,25 @@ Esta aplicação promove o acesso universal à saúde e bem-estar, oferecendo fe
 
 ### 📱 Seções Funcionais
 
-- **Consultas**: Agendamento de consultas médicas
-- **Diário de Saúde**: Registro de sintomas e bem-estar
-- **Controle de Hidratação**: Acompanhamento da ingestão diária de água
-- **Medicamentos**: Controle e lembretes de medicamentos
+- **Consultas**: Formulário completo com validações (CPF, telefone, CEP e UF), endereço e histórico local
+- **Diário de Saúde**: Registro de sintomas e bem-estar com histórico persistido em `localStorage` e exportação em PDF
+- **Controle de Hidratação**: Meta diária, barra de progresso e armazenamento local
+- **Medicamentos**: Cadastro com horário, marcação de dose tomada e controle da lista
 
 ### 🔗 Recursos Adicionais
 
 - **Carteira de Vacinação Digital**: Link direto para o portal ConecteSUS
 - **Contatos de Emergência**: Números importantes (SAMU, Bombeiros, Ouvidoria SUS)
 - **Telemedicina**: Acesso aos serviços de telemedicina do SUS
+
+## 🆕 Atualizações Recentes
+
+- Menu superior com aba **Links Úteis** em formato compacto (menu expansível)
+- Navegação SPA refinada para abrir/fechar links úteis por hover sem prejudicar clique
+- Máscaras de entrada em tempo real para **CPF**, **telefone**, **CEP** e normalização de **UF**
+- Persistência de dados no navegador com `localStorage` em consultas, diário, hidratação e medicamentos
+- Exportação de histórico do diário em **PDF** (via impressão do navegador)
+- Organização do JavaScript em módulos (`js/modules`) para manutenção mais simples
 
 ## 🏗️ Estrutura do Projeto
 
@@ -69,6 +78,7 @@ PaginaOds/
 - Sistema de notícias com auto-atualização
 - Calculadora de IMC com validação
 - Dicas dinâmicas com destaque aleatório
+- Formulários funcionais com validações e persistência local
 - Animações e transições suaves
 
 ## 🌟 Links Úteis Incluídos
@@ -154,20 +164,6 @@ Este projeto é estático e pode ser publicado manualmente em GitHub Pages, Netl
 - Código-fonte do projeto (`index.html`, `css/`, `js/`)
 - Documentação principal (`README.md`, `LICENSE`)
 - `.gitignore`
-
-### 🤔 Enviar ou não (opcional)
-
-- Scripts/guias locais de apoio (quando existirem) podem ficar fora do repositório sem impactar o funcionamento do site.
-
-### ❌ Não enviar
-
-- Arquivos temporários, logs, backup e configurações locais (já cobertos pelo `.gitignore`)
-- Segredos e variáveis de ambiente (`.env*`)
-
-### Resposta direta às suas dúvidas
-
-- **Pasta `.github/workflows`**: no estado atual deste repositório, essa pasta foi removida e o deploy é manual.
-- **`setup-github.ps1`** e **`GUIA-GITHUB.txt`**: não são necessários para produção; no estado atual deste repositório, esses arquivos já foram removidos.
 
 ## 📄 Licença
 
